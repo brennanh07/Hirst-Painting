@@ -24,7 +24,6 @@ tim.teleport(-365.00000000000006, -359.99999999999994)
 for y in range(10):
     x_position = tim.xcor()
     y_position = tim.ycor()
-    print(x_position, " ", y_position)
     for x in range(10):
         random_color = random.choice(color_palette)
         tim.dot(40, random_color)
