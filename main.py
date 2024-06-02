@@ -21,6 +21,7 @@ tim = Turtle()
 tim.up()
 tim.teleport(-365.00000000000006, -359.99999999999994)
 tim.speed("fastest")
+tim.hideturtle()
 
 for y in range(10):
     x_position = tim.xcor()
