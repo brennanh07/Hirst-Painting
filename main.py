@@ -20,6 +20,7 @@ color_palette = [(226, 231, 236), (58, 106, 148), (224, 200, 109), (134, 84, 58)
 tim = Turtle()
 tim.up()
 tim.teleport(-365.00000000000006, -359.99999999999994)
+tim.speed("fastest")
 
 for y in range(10):
     x_position = tim.xcor()
